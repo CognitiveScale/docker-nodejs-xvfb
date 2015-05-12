@@ -1,5 +1,6 @@
 FROM c12e/debian
 MAINTAINER CognitiveScale
+ENV SERVICE_NAME=nodejs-xvfb
 
 RUN apt-get update && \
     apt-get install -y --force-yes \
